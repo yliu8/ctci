@@ -43,7 +43,7 @@ public class Q_1_1 {
 
 /**
  * 
- * your solution
+ * solution
  * 
  */
 class Solution {

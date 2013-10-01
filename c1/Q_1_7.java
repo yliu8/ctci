@@ -2,7 +2,7 @@
  * [Question description]
  *
  * Time: 
- * Space: 
+ * space: 
  *
  * author: Diwei Jiang
  * date: 
