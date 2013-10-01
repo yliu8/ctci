@@ -1,7 +1,11 @@
 /**
+ * [Question description]
  *
- * Question description
- * 
+ * Time: 
+ * space: 
+ *
+ * author: Diwei Jiang
+ * date: 
  */
 
 
@@ -17,12 +21,6 @@ public class Q_*_* {
     /*
      * add test case
      */
-    
-
-
-
-
-
 
     System.out.println("\n\n*********************************************");
     System.out.println("*********************End*********************");
@@ -30,11 +28,16 @@ public class Q_*_* {
 
 }
 
-
-
+/**
+ * 
+ * your solution
+ * 
+ */
 class Solution {
 
-
+  /**
+   * contructor
+   */
   public Solution() {
 
   }
@@ -43,8 +46,4 @@ class Solution {
    * add function
    */
 
-
-
-
 }
-

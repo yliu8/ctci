@@ -1,4 +1,4 @@
-/**
+/*
  * Implement an algorithm to determine if a string has all unique characters 
  * What if you can not use additional data structures?
  *
@@ -6,10 +6,8 @@
  * space: O(1)
  *
  * author: Diwei Jiang
- * date: 09/27/2013
- * 
+ * date: 09/27/2013 
  */
-
 
 public class Q_1_1 {
 
@@ -43,28 +41,35 @@ public class Q_1_1 {
 
 }
 
-
-
+/**
+ * 
+ * your solution
+ * 
+ */
 class Solution {
 
-
+  /**
+   * contructor
+   */
   public Solution() {
 
   }
 
-  /*
+  /**
    * add function
    */
-
   boolean isUniqueChars(String str) {
 
     if(str.length() > 256) return false;
 
-    // default is false
+    /**
+     * default is false
+     */
     boolean[] char_set = new boolean[256];
 
     for (int i=0; i < str.length() ; i++) {
       int val = str.charAt(i);
+
       if(char_set[val])
         return false;
       char_set[val] = true;
