@@ -38,9 +38,7 @@ class Solution {
   /**
    * contructor
    */
-  public Solution() {
-
-  }
+  public Solution() {}
 
   /*
    * add function
